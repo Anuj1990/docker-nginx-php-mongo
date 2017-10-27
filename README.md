@@ -32,6 +32,12 @@ Docker running Nginx, PHP-FPM, Mongo.
 
     * [http://localhost:8000](http://localhost:8000/)
     * [https://localhost:3000](https://localhost:3000/) ([HTTPS](https://github.com/nanoninja/docker-nginx-php-mongo#generating-ssl-certificates) not configured by default)
+    
+4. Run : To Bring Down containers
+
+    ```sh
+    $ docker-compose down
+    ```
 
 ## Directory tree
 
